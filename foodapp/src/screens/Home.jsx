@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -10,7 +10,10 @@ export default function Home() {
       <div>
         <Navbar />
       </div>
-      <div><Card /></div>
+      <div>
+        <Carousel />
+      </div>
+      <div className="m-3"><Card /></div>
       <div>
         <Footer />
       </div>
